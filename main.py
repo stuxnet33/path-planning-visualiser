@@ -199,6 +199,7 @@ fig.canvas.mpl_connect('button_release_event', on_release)
 fig.canvas.mpl_connect('motion_notify_event', on_motion)
 fig.canvas.mpl_connect('key_press_event', on_key)
 
+fig.canvas.manager.set_window_title("Path Planning Visualiser")
 plt.title("Path Planning Visualiser — A* and RRT",
           color='white', fontsize=11, pad=10)
 ax.set_facecolor('#1a1a2e')
