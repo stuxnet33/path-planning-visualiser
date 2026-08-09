@@ -15,6 +15,14 @@ Interactive visualisation of A* and RRT path planning algorithms built in Python
 
 ---
 
+## Results
+
+**A\* — optimal path, systematic exploration**
+![A* result](astar.png)
+
+**RRT — probabilistic tree, valid path**
+![RRT result](rrt.png)
+
 ## Why both algorithms
 
 A* and RRT solve the same problem in fundamentally different ways and each has strengths the other doesn't.
